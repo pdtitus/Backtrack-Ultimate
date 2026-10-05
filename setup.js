@@ -147,6 +147,40 @@ document.getElementById("round10Button")
 document.getElementById("round20Button")
     .addEventListener("click", () => selectRoundCount(20));
 
+
+//=========================================================
+// HOW TO PLAY
+//=========================================================
+
+document
+    .getElementById("howToPlayButton")
+    .addEventListener("click", function () {
+
+        document
+            .getElementById("gameSettings")
+            .classList.add("hidden");
+
+        document
+            .getElementById("howToPlayScreen")
+            .classList.remove("hidden");
+
+    });
+
+
+document
+    .getElementById("backToSetupButton")
+    .addEventListener("click", function () {
+
+        document
+            .getElementById("howToPlayScreen")
+            .classList.add("hidden");
+
+        document
+            .getElementById("gameSettings")
+            .classList.remove("hidden");
+
+    });
+
 function collectGameSettings() {
 
     SETUP.numberOfTeams =
