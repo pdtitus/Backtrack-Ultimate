@@ -383,6 +383,10 @@ p {
    HOW TO PLAY
 ================================================= */
 
+/* =================================================
+   HOW TO PLAY
+================================================= */
+
 #howToPlayScreen {
     max-height: 85vh;
     box-sizing: border-box;
@@ -390,7 +394,7 @@ p {
 }
 
 #howToPlayContent {
-    max-height: 62vh;
+    max-height: 55vh;
     overflow-y: auto;
     padding: 5px 15px 10px 5px;
     text-align: left;
