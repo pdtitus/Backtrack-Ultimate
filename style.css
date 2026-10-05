@@ -385,11 +385,12 @@ p {
 
 #howToPlayScreen {
     max-height: 85vh;
+    box-sizing: border-box;
     overflow: hidden;
 }
 
 #howToPlayContent {
-    max-height: 65vh;
+    max-height: 62vh;
     overflow-y: auto;
     padding: 5px 15px 10px 5px;
     text-align: left;
